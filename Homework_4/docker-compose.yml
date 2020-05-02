@@ -10,9 +10,9 @@ services:
         
             
             
-    mysql:
+    mysql_container:
         build:
             dockerfile: Dockerfile-mysql
         ports:
             - "3306:3306"
-        restart: always
+        
