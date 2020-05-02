@@ -9,7 +9,6 @@ services:
             - "8081:8081"
         
             
-            
     mysql_container:
         build:
             dockerfile: Dockerfile-mysql
