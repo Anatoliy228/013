@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
     
-    ubuntu_apache:
+    centos_container:
         build:
             dockerfile: Dockerfile-ubuntu_apache
         ports:
