@@ -4,13 +4,13 @@ services:
 	
     centos:
         build:
-	dockerfile: Dockerfile
+		dockerfile: Dockerfile
 	ports:
 	    - "8081:8081"
 
     mysql:
-	    build:
+	build:
 		dockerfile: Dockerfile-mysql
-	    ports:
+	ports:
 		- "3306:3306"
 		
